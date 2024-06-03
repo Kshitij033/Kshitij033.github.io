@@ -126,6 +126,26 @@ nav li a:hover {
 
 /*Contact Section*/
 
+#success-message {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  transition: opacity 0.5s ease-out;
+}
+
+#success-message > p {
+  background-color: #a6d7b0;
+  color: #155724;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 #contact h2 {
   margin-bottom: 10px;
 }
