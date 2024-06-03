@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header id="header">
+    <img src="images/logo.jpg" alt="Logo of a dog's image">
+    <h2>My Portfolio</h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="hero">
+      <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis quam placeat qui iste, non molestias
+        eius? Reiciendis incidunt eum doloribus cumque, fugiat officia illo aperiam libero asperiores amet officiis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis quam placeat qui iste, non molestias
+        eius? Reiciendis incidunt eum doloribus cumque, fugiat officia illo aperiam libero asperiores amet officiis.</p>
+
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/card1.jpg" alt="a ocean scenery">
+          <p class="card-title">Beach Project</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium ea suscipit perferendis qui
+            delectus...</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="card">
+          <img src="images/card2.jpg" alt="a dog photo">
+          <p class="card-title">A dog photo</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium ea suscipit perferendis qui
+            delectus...</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="card">
+          <img src="images/card3.jpg" alt="a blue scenery">
+          <p class="card-title">A Blue Scenery</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium ea suscipit perferendis qui
+            delectus...</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="https://api.web3forms.com/submit" method="post">
+
+        <input type="hidden" name="access_key" value="5fc7278b-b7f6-4841-ad5c-4c03ffe5dcc5">
+        <p>
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Enter Your Name.." required>
+        </p>
+        <p>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="Enter Your Email..." required>
+        </p>
+        <p>
+          <label for="message">Message: </label>
+          <textarea name="message" id="message" required></textarea>
+        </p>
+
+        <div class="h-captcha" data-captcha="true"></div>
+
+        <input type="submit" value="Submit">
+
+        <input type="hidden" name="redirect" value="https://yourwebsite.com/thanks.html">
+
+      </form>
+      <script src="https://web3forms.com/client/script.js" async defer></script>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script>
+
+  </script>
+
+</body>
+
+</html>

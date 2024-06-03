@@ -1,0 +1,175 @@
+/*Global Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+p {
+    margin: 10px 0;
+}
+
+#about,
+#portfolio,
+#contact {
+    padding: 0 100px;
+    margin: 50px 0;
+}
+
+/* HEADER AND NAVIGATION */
+
+#header {
+    font-size: 16px;
+    background-color: #222;
+    color: white;
+    padding: 20px 100px;
+
+}
+
+#header img {
+    margin-top: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+
+#header > h2 {
+    font-size: 2em;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 3px;
+}
+
+
+nav {
+    background-color: #222;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+
+#hero {
+    color: #fff;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Portfolio Section */
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.card img:hover {
+    border-radius: 10px;
+    width: 101%;
+    overflow: hidden;
+
+}
+
+.card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #222;
+    background-color: #fff;
+    padding: 7.7px 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.card a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #222;
+    background-color: #222;
+    padding: 7.7px 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+/*Contact Section*/
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+input:not([type='submit']),
+textarea {
+    width: 400px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+
+input[type='submit'] {
+    background-color: #6c6c6c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+    background-color: #373737;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+/*footer section*/
+
+#footer nav {
+    text-align: center;
+}
